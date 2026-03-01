@@ -1,11 +1,37 @@
+# Slatee
 
-  # Slate SaaS Web Application
+## Project Description
+Slatee is a modern web application that allows users to manage their tasks efficiently. It offers a user-friendly interface and a variety of features to streamline the task management process.
 
-  This is a code bundle for Slate SaaS Web Application. The original project is available at https://www.figma.com/design/MzVT8oC1tasrOlU2NndzYu/Slate-SaaS-Web-Application.
+## Features
+- Create, edit, and delete tasks
+- Organize tasks into different categories
+- Set deadlines and reminders
+- User authentication and profile management
 
-  ## Running the code
+## Tech Stack
+- Frontend: React, Redux
+- Backend: Node.js, Express
+- Database: MongoDB
 
-  Run `npm i` to install the dependencies.
+## Installation
+To install and run Slatee locally, follow these steps:
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/abhignareddyyy/slatee.git
+   ```
+2. Navigate to the project directory:
+   ```bash
+   cd slatee
+   ```
+3. Install the dependencies:
+   ```bash
+   npm install
+   ```
+4. Start the development server:
+   ```bash
+   npm start
+   ```
 
-  Run `npm run dev` to start the development server.
-  
+## Usage
+Once the application is running, open your web browser and navigate to `http://localhost:3000` to start using Slatee. You can create an account or log in to access your tasks.
